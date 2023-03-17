@@ -1,0 +1,29 @@
+html {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+.done {
+    text-decoration: line-through;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+ul{
+    margin-top: 50px;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    margin: 20px 0px;
+    cursor:cell;
+}
+
+li:hover {
+    font-size: larger;
+}
+
