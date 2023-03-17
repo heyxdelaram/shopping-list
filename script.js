@@ -15,7 +15,7 @@ function inputLength(){
 //once the input is entered
 function createListNode(){
     var liNode = document.createElement("li");
-    var textNode = document.createTextNode(input.value);
+    var textNode = document.createTextNode(input.value + "   ");
     liNode.setAttribute("id", input.value);
     liNode.appendChild(textNode);
     ul.appendChild(liNode);
